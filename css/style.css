@@ -22,6 +22,11 @@ header {
     align-items: center; }
     header .wrapper-texto h1 {
       font-size: 100px; }
+    @media screen and (max-width: 600px) {
+      header .wrapper-texto h1 {
+        font-size: 50px; }
+      header .wrapper-texto h3 {
+        font-size: 30px; } }
     header .wrapper-texto h1, header .wrapper-texto h3 {
       color: white;
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.8); }
